@@ -1,0 +1,111 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    background-image: url(./assets/header\ bg.jfif) ;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile--avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar--picture {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+.profile--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile--name{
+    color: white;
+}
+
+.profile--role{
+    color: white;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bio--title {
+    color: white;
+}
+
+.bio--text {
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 47vh;
+    background-color: #343434;
+}
+
+.project--title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.projects {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project--name {
+    color: white;
+}
+
+.project--description {
+    color: white;
+    max-width: 310px;
+}
+
+.project--img {
+    max-width: 315px;
+    max-height: 165px;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+    background-color: #343434;
+}
