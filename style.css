@@ -10,6 +10,7 @@ header {
   background-image: url(./assets/bg\ header.jpg) ;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 15px;
 }
 
 .profile {
@@ -156,12 +157,13 @@ section {
 }
 
 footer {
-  font-size: 14px;
+  font-size: 10px;
   line-height: 16px;
   color: #FFFFFF;
   background-color: #343434;
   width: 100%;
   height:auto;
+  padding-left: 25px;
 }
 
 
