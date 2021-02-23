@@ -1,13 +1,14 @@
 import React from 'react';
 import Avatar from './Avatar';
 import Contact from './Contact';
+import { Hi, TechStack } from './styledComponents/styles';
 
 const Hero = () => {
   return (
     <div>
       <Avatar />
-      <h1>Hi Im Deko Web Developer</h1>
-      <p>Front end Developer | Html | Css | Js | React</p>
+      <Hi>Hi Im Deko Web Developer</Hi>
+      <TechStack>Front end Developer | Html | Css | Js | React</TechStack>
       <Contact />
     </div>
   );

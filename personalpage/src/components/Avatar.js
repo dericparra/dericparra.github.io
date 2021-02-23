@@ -1,5 +1,11 @@
+import FotoAvatar from './FotoAvatar';
+
 const Avatar = () => {
-  return <div></div>;
+  return (
+    <div>
+      <FotoAvatar />
+    </div>
+  );
 };
 
 export default Avatar;
