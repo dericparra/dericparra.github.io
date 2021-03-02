@@ -1,4 +1,4 @@
-import FotoAvatar from './FotoAvatar';
+import FotoAvatar from '../FotoAvatar/FotoAvatar';
 
 const Avatar = () => {
   return (
