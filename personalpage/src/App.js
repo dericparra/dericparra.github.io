@@ -3,15 +3,16 @@ import Hero from './components/Hero/Hero';
 import Cards from './components/Cards/Cards';
 import Footer from './components/Footer/Footer';
 import GlobalStyle from './globalStyles';
+import { Div } from './styles';
 
 function App() {
   return (
-    <div className="App">
+    <Div className="App">
       <GlobalStyle />
       <Hero />
       <Cards />
       <Footer />
-    </div>
+    </Div>
   );
 }
 
