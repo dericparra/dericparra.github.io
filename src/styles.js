@@ -8,6 +8,6 @@ export const Div = styled.div`
 
 export const DarkMode = styled.div`
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 15px;
+  right: 15px;
 `;
