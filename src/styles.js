@@ -5,3 +5,9 @@ export const Div = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
+export const DarkMode = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+`;
