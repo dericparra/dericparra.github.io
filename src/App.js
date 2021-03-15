@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Hero from './components/Hero/Hero';
 import Cards from './components/Cards/Cards';
 import Footer from './components/Footer/Footer';
 import GlobalStyle from './globalStyles';
 import { Div, DarkMode } from './styles';
+import './styles.css';
 
 function App() {
+  const [light, setLight] = useState(false);
+
   return (
-    <Div className="App">
+    <Div className={light ? 'light-bg' : ''}>
       <GlobalStyle />
-      <DarkMode>
+      <DarkMode onClick={() => setLight(!light)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="30"
