@@ -4,7 +4,7 @@ import bottom from '../src/components/imgs/bgBottom.png';
 import bgMobile from '../src/components/imgs/bgMobile.png';
 
 export const Div = styled.div`
-  height: 100%;
+  height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@ export const Div = styled.div`
     height: 100%;
     background-image: url(${bgMobile});
     background-repeat: no-repeat;
-    background-position: right top 100px;
+    background-position: right top 25vh;
   }
 `;
 
