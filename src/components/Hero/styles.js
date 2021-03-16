@@ -7,12 +7,18 @@ export const Hi = styled.h1`
   text-transform: uppercase;
   margin: 5px 0 5px;
   align-self: flex-start;
+  @media (max-width: 539px) {
+    font-size: 20px;
+  }
 `;
 
 export const TechStack = styled.p`
   font-size: 14px;
   font-weight: 300;
   color: #616161;
+  @media (max-width: 539px) {
+    display: none;
+  }
 `;
 
 export const Section = styled.section`
@@ -22,6 +28,11 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
   margin: 40px 0 100px 0;
+  @media (max-width: 539px) {
+    max-width: 320px;
+    max-height: 160px;
+    align-self: center;
+  }
 `;
 
 export const Div = styled.div`
@@ -34,4 +45,8 @@ export const Div = styled.div`
   justify-content: center;
   text-align: left;
   align-self: flex-end;
+  @media (max-width: 539px) {
+    max-width: 320px;
+    max-height: 160px;
+  }
 `;

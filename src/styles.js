@@ -1,15 +1,22 @@
 import styled from 'styled-components';
 import top from '../src/components/imgs/bgTop.png';
 import bottom from '../src/components/imgs/bgBottom.png';
+import bgMobile from '../src/components/imgs/bgMobile.png';
 
 export const Div = styled.div`
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   display: flex;
   flex-direction: column;
   background-image: url(${top}), url(${bottom});
   background-repeat: no-repeat;
   background-position: left top, right bottom;
+  @media (max-width: 539px) {
+    height: 100%;
+    background-image: url(${bgMobile});
+    background-repeat: no-repeat;
+    background-position: right top 100px;
+  }
 `;
 
 export const DarkMode = styled.button`

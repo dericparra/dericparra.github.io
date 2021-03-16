@@ -16,6 +16,9 @@ export const Div = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  @media (max-width: 539px) {
+    flex-direction: column;
+  }
 `;
 
 export const Title = styled.h2`
@@ -23,6 +26,9 @@ export const Title = styled.h2`
   align-self: flex-start;
   color: #616161;
   font-weight: 400;
+  @media (max-width: 539px) {
+    align-self: center;
+  }
 `;
 
 export const CardsBox = styled.div`
@@ -36,6 +42,9 @@ export const CardsBox = styled.div`
   border-radius: 10px;
   padding: 0 10px 10px 10px;
   margin: 0 20px 0 0;
+  @media (max-width: 539px) {
+    margin: 10px 0;
+  }
 `;
 
 export const TitleCard = styled.h3`

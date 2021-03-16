@@ -6,4 +6,8 @@ export const Avatar = styled.div`
   height: 320px;
   background-size: cover;
   background-image: url(${foto});
+  @media (max-width: 539px) {
+    max-width: 120px;
+    max-height: 160px;
+  }
 `;
