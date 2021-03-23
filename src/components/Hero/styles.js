@@ -32,7 +32,6 @@ export const Section = styled.section`
     max-width: 320px;
     max-height: 160px;
     align-self: center;
-    margin: 20vh 0 0 0;
   }
 `;
 

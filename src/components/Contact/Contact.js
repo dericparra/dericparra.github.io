@@ -3,7 +3,7 @@ import { Button, Div } from './styles';
 const Contact = () => {
   return (
     <Div>
-      <Button>Contact me</Button>
+      <Button href="mailto:parradeko@gmail.com">Contact me</Button>
     </Div>
   );
 };
