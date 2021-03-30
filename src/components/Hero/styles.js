@@ -32,6 +32,8 @@ export const Section = styled.section`
     max-width: 320px;
     max-height: 160px;
     align-self: center;
+    padding-top: 50vh;
+    margin: 0;
   }
 `;
 

@@ -14,7 +14,7 @@ export const Div = styled.div`
   @media (max-width: 539px) {
     background-image: url(${bgMobile});
     background-repeat: no-repeat;
-    background-position: right top 25vh;
+    background-position: right top 55vh;
   }
 `;
 
