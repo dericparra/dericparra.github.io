@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Section = styled.section`
   flex: 1;
@@ -10,7 +10,7 @@ export const Section = styled.section`
   margin: 0 auto;
   flex-direction: column;
   text-align: left;
-`;
+`
 
 export const Div = styled.div`
   display: flex;
@@ -19,7 +19,7 @@ export const Div = styled.div`
   @media (max-width: 539px) {
     flex-direction: column;
   }
-`;
+`
 
 export const Title = styled.h2`
   font-size: 32px;
@@ -29,7 +29,7 @@ export const Title = styled.h2`
   @media (max-width: 539px) {
     align-self: center;
   }
-`;
+`
 
 export const CardsBox = styled.div`
   width: 230px;
@@ -45,18 +45,18 @@ export const CardsBox = styled.div`
   @media (max-width: 539px) {
     margin: 10px 0;
   }
-`;
+`
 
 export const TitleCard = styled.h3`
   font-size: 16px;
-`;
+`
 
 export const TextCard = styled.p`
   font-size: 14px;
   font-weight: 300;
-`;
+`
 
 export const LinkCard = styled.a`
   font-size: 12px;
   color: inherit;
-`;
+`

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Section = styled.section`
   flex: 1;
@@ -7,8 +7,8 @@ export const Section = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-`;
+`
 
-export const A = styled.a`
+export const Link = styled.a`
   margin: 0 7.5px;
-`;
+`

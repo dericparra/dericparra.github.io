@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import Hero from './components/Hero/Hero';
-import Cards from './components/Cards/Cards';
-import Footer from './components/Footer/Footer';
-import GlobalStyle from './globalStyles';
-import { Div, DarkMode } from './styles';
+import React, { useState } from 'react'
+import Hero from './components/Hero/Hero'
+import Cards from './components/Cards/Cards'
+import Footer from './components/Footer/Footer'
+import GlobalStyle from './globalStyles'
+import { Div, DarkMode } from './styles'
 
 function App() {
-  const [light, setLight] = useState(false);
+  const [light, setLight] = useState(false)
 
   return (
     <Div className={light ? 'light-bg' : ''}>
@@ -29,7 +29,7 @@ function App() {
       <Cards />
       <Footer />
     </Div>
-  );
+  )
 }
 
-export default App;
+export default App

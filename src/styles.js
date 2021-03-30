@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import top from '../src/components/imgs/bgTop.png';
-import bottom from '../src/components/imgs/bgBottom.png';
-import bgMobile from '../src/components/imgs/bgMobile.png';
+import styled from 'styled-components'
+import top from '../src/assets/bgTop.png'
+import bottom from '../src/assets/bgBottom.png'
+import bgMobile from '../src/assets/bgMobile.png'
 
 export const Div = styled.div`
   min-height: 100vh;
@@ -16,7 +16,7 @@ export const Div = styled.div`
     background-repeat: no-repeat;
     background-position: right top 55vh;
   }
-`;
+`
 
 export const DarkMode = styled.button`
   position: absolute;
@@ -24,4 +24,4 @@ export const DarkMode = styled.button`
   right: 15px;
   border: none;
   background: none;
-`;
+`

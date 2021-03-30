@@ -1,11 +1,12 @@
-import { Avatar } from './styles';
+import React from 'react'
+import { Avatar } from './styles'
 
 const Foto = () => {
   return (
     <div>
       <Avatar alt="Foto do perfil"></Avatar>
     </div>
-  );
-};
+  )
+}
 
-export default Foto;
+export default Foto

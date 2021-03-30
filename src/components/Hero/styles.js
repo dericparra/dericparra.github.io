@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Hi = styled.h1`
   font-size: 32px;
@@ -10,7 +10,7 @@ export const Hi = styled.h1`
   @media (max-width: 539px) {
     font-size: 20px;
   }
-`;
+`
 
 export const TechStack = styled.p`
   font-size: 14px;
@@ -19,7 +19,7 @@ export const TechStack = styled.p`
   @media (max-width: 539px) {
     display: none;
   }
-`;
+`
 
 export const Section = styled.section`
   flex: 1;
@@ -35,7 +35,7 @@ export const Section = styled.section`
     padding-top: 50vh;
     margin: 0;
   }
-`;
+`
 
 export const Div = styled.div`
   display: flex;
@@ -50,4 +50,4 @@ export const Div = styled.div`
     max-width: 320px;
     max-height: 160px;
   }
-`;
+`

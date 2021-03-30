@@ -1,7 +1,7 @@
-import React from 'react';
-import Avatar from '../Avatar/Avatar';
-import Contact from '../Contact/Contact';
-import { Hi, TechStack, Section, Div } from './styles';
+import React from 'react'
+import Avatar from '../Avatar/Avatar'
+import Contact from '../Contact/Contact'
+import { Hi, TechStack, Section, Div } from './styles'
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
         <Contact />
       </Div>
     </Section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

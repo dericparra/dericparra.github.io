@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Div = styled.div`
   justify-self: self-start;
-`;
+`
 
 export const Button = styled.a`
   width: 100px;
@@ -14,4 +14,4 @@ export const Button = styled.a`
   font-size: 12px;
   font-family: 'Open-Sans', sans-serif;
   color: #616161;
-`;
+`

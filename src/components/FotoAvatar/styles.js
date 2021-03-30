@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import foto from '../imgs/foto.png';
+import styled from 'styled-components'
+import foto from '../../assets/foto.png'
 
 export const Avatar = styled.div`
   width: 220px;
@@ -10,4 +10,4 @@ export const Avatar = styled.div`
     max-width: 120px;
     max-height: 160px;
   }
-`;
+`

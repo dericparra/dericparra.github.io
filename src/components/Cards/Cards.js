@@ -1,3 +1,4 @@
+import React from 'react'
 import {
   Section,
   Div,
@@ -5,8 +6,8 @@ import {
   CardsBox,
   TitleCard,
   TextCard,
-  LinkCard,
-} from './styles';
+  LinkCard
+} from './styles'
 
 const Cards = () => {
   return (
@@ -41,7 +42,7 @@ const Cards = () => {
         </CardsBox>
       </Div>
     </Section>
-  );
-};
+  )
+}
 
-export default Cards;
+export default Cards

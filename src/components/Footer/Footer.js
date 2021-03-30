@@ -1,4 +1,5 @@
-import { Section, A } from './styles';
+import React from 'react'
+import { Section, Link } from './styles'
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <p>parradeko@gmail.com | 14 99761-8477</p>
       </div>
       <div>
-        <A href="https://github.com/dericparra">
+        <Link href="https://github.com/dericparra">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="22"
@@ -20,8 +21,8 @@ const Footer = () => {
               fill="#616161"
             />
           </svg>
-        </A>
-        <A href="https://codepen.io/DericRangel013">
+        </Link>
+        <Link href="https://codepen.io/DericRangel013">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="22"
@@ -34,8 +35,8 @@ const Footer = () => {
               fill="#616161"
             />
           </svg>
-        </A>
-        <A href="https://www.linkedin.com/in/deric-parra-73774a143/">
+        </Link>
+        <Link href="https://www.linkedin.com/in/deric-parra-73774a143/">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -48,10 +49,10 @@ const Footer = () => {
               fill="#616161"
             />
           </svg>
-        </A>
+        </Link>
       </div>
     </Section>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
