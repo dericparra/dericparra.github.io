@@ -1,6 +1,6 @@
 import React from 'react'
-import Avatar from '../Avatar/Avatar'
-import Contact from '../Contact/Contact'
+import Avatar from '../Avatar'
+import Contact from '../Contact'
 import { Hi, TechStack, Section, Div } from './styles'
 
 const Hero = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Hero from './components/Hero/Hero'
-import Cards from './components/Cards/Cards'
-import Footer from './components/Footer/Footer'
+import Hero from './components/Hero'
+import Cards from './components/Cards'
+import Footer from './components/Footer'
 import GlobalStyle from './globalStyles'
 import { Div, DarkMode } from './styles'
 
