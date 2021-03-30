@@ -11,6 +11,9 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Open Sans", Helvetica, Sans-Serif;
     color: #616161;
   }
+  .light-bg {
+    background-color: #292929;
+  }
 `;
 
 export default GlobalStyle;

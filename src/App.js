@@ -4,7 +4,6 @@ import Cards from './components/Cards/Cards';
 import Footer from './components/Footer/Footer';
 import GlobalStyle from './globalStyles';
 import { Div, DarkMode } from './styles';
-import './styles.css';
 
 function App() {
   const [light, setLight] = useState(false);
