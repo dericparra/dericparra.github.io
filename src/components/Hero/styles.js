@@ -44,7 +44,6 @@ export const Div = styled.div`
   align-items: self-start;
   justify-content: center;
   text-align: left;
-  align-self: flex-end;
   @media (max-width: 539px) {
     max-width: 320px;
     max-height: 160px;
