@@ -4,7 +4,9 @@ import { Button, Div } from './styles'
 const Contact = () => {
   return (
     <Div>
-      <Button href="mailto:parradeko@gmail.com">Contact me</Button>
+      <Button href="https://wa.me/5514997618477" target="_blank">
+        Contact me
+      </Button>
     </Div>
   )
 }

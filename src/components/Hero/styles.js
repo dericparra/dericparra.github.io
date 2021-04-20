@@ -27,7 +27,8 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 40px 0 100px 0;
+  margin: 0;
+  padding-top: 120px;
   @media (max-width: 539px) {
     max-width: 320px;
     max-height: 160px;

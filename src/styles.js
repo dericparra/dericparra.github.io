@@ -10,7 +10,7 @@ export const Div = styled.div`
   flex-direction: column;
   background-image: url(${top}), url(${bottom});
   background-repeat: no-repeat;
-  background-position: left top, right bottom;
+  background-position: left -120px top, right -190px bottom;
   @media (max-width: 539px) {
     background-image: url(${bgMobile});
     background-repeat: no-repeat;

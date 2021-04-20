@@ -7,11 +7,11 @@ export const Div = styled.div`
 export const Button = styled.a`
   width: 100px;
   height: 30px;
-  padding: 5px;
-  background-color: #fff;
+  padding: 10px 16px;
+  color: #fff;
   border: solid 1px #bdbdbd;
   text-transform: uppercase;
   font-size: 12px;
   font-family: 'Open-Sans', sans-serif;
-  color: #616161;
+  background-color: #616161;
 `
