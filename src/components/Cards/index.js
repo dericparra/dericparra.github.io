@@ -19,14 +19,20 @@ const Cards = () => {
           <TextCard>
             Aplicação React (usando hooks) consumindo API publica dogCeo
           </TextCard>
-          <LinkCard href="https://github.com/dericparra/what-is-the-breed">
+          <LinkCard
+            href="https://github.com/dericparra/what-is-the-breed"
+            target="_blank"
+          >
             ver repositório
           </LinkCard>
         </CardsBox>
         <CardsBox>
           <TitleCard>📝be-the-hero</TitleCard>
           <TextCard>Aplicação desenvolvida na 11° semana OmniStack</TextCard>
-          <LinkCard href="https://github.com/dericparra/be-the-hero">
+          <LinkCard
+            href="https://github.com/dericparra/be-the-hero"
+            target="_blank"
+          >
             ver repositório
           </LinkCard>
         </CardsBox>
@@ -36,7 +42,10 @@ const Cards = () => {
             Aplicação de previsão do tempo, feita com react consumindo API
             publica
           </TextCard>
-          <LinkCard href="https://github.com/dericparra/Weather-App">
+          <LinkCard
+            href="https://github.com/dericparra/Weather-App"
+            target="_blank"
+          >
             ver repositório
           </LinkCard>
         </CardsBox>
