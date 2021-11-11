@@ -17,7 +17,8 @@ const Cards = () => {
         <CardsBox>
           <TitleCard>📝climate-news</TitleCard>
           <TextCard>
-            Climate journal with notices of the biggest 5 newspaper, consuming my own API
+            Climate journal with notices of the biggest 5 newspaper, consuming
+            my own API
           </TextCard>
           <LinkCard
             href="https://github.com/dericparra/climate-news"
@@ -38,9 +39,7 @@ const Cards = () => {
         </CardsBox>
         <CardsBox>
           <TitleCard>📝web-scraper</TitleCard>
-          <TextCard>
-          Web Scraper made with Node.Js
-          </TextCard>
+          <TextCard>Web Scraper made with Node.Js</TextCard>
           <LinkCard
             href="https://github.com/dericparra/web-scraper"
             target="_blank"
