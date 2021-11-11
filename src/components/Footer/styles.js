@@ -7,6 +7,7 @@ export const Section = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  padding-bottom: 20px;
 `
 
 export const Link = styled.a`

@@ -10,9 +10,10 @@ const GlobalStyle = createGlobalStyle`
     justify-content: center;
     font-family: "Open Sans", Helvetica, Sans-Serif;
     color: #616161;
-    overflow: hidden;
-    padding-bottom: 60px;
+    overflow-x: hidden;
+    overflow-y: auto; 
   }
+
   .light-bg {
     background-color: #292929;
   }
