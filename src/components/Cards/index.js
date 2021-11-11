@@ -15,35 +15,34 @@ const Cards = () => {
       <Title>Recentes</Title>
       <Div>
         <CardsBox>
-          <TitleCard>📝what-is-the-bread</TitleCard>
+          <TitleCard>📝climate-news</TitleCard>
           <TextCard>
-            Aplicação React (usando hooks) consumindo API publica dogCeo
+            Climate journal with notices of the biggest 5 newspaper, consuming my own API
           </TextCard>
           <LinkCard
-            href="https://github.com/dericparra/what-is-the-breed"
+            href="https://github.com/dericparra/climate-news"
             target="_blank"
           >
             ver repositório
           </LinkCard>
         </CardsBox>
         <CardsBox>
-          <TitleCard>📝be-the-hero</TitleCard>
-          <TextCard>Aplicação desenvolvida na 11° semana OmniStack</TextCard>
+          <TitleCard>📝tesla-homepage</TitleCard>
+          <TextCard>Homepage of tesla reproduced in ReactJs</TextCard>
           <LinkCard
-            href="https://github.com/dericparra/be-the-hero"
+            href="https://github.com/dericparra/tesla-homepage"
             target="_blank"
           >
             ver repositório
           </LinkCard>
         </CardsBox>
         <CardsBox>
-          <TitleCard>📝weather-app</TitleCard>
+          <TitleCard>📝web-scraper</TitleCard>
           <TextCard>
-            Aplicação de previsão do tempo, feita com react consumindo API
-            publica
+          Web Scraper made with Node.Js
           </TextCard>
           <LinkCard
-            href="https://github.com/dericparra/Weather-App"
+            href="https://github.com/dericparra/web-scraper"
             target="_blank"
           >
             ver repositório
