@@ -15,14 +15,28 @@
 <body>
     <main>
         <header>
-            <img class="header__avatar" src="assets/avatar.jpg" />
+            <img class="header__avatar" src="assets/avatar.jpg" aria-label="Avatar"/>
             <ul class="header__menu">
-                <li class="header__item"><a class="header__link" href="https://github.com/dericparra" target="_blank"><img class="header__itemImg" src="assets/github.svg" /><p class="header__item--hidden">Github</p></a></li>
-                <li class="header__item"><a class="header__link" href="https://www.linkedin.com/in/deric-parra/" target="_blank"><img class="header__itemImg" src="assets/linkedin.svg" /><p class="header__item--hidden">Linkedin</p></a></li>
-                <li class="header__item"><a class="header__link" href="https://codepen.io/DericRangel013" target="_blank"><img class="header__itemImg" src="assets/codepen.svg" /><p class="header__item--hidden">Codepen</p></a></li>
-                <li class="header__item"><a class="header__link" href="https://api.whatsapp.com/send?phone=5514997618477" target="_blank"><img class="header__itemImg" src="assets/wpp.svg" /><p class="header__item--hidden" id="bold" >Vamos conversar?</p></a> </li> 
+                <li class="header__item" aria-label="Link to Github"><a class="header__link" href="https://github.com/dericparra" target="_blank"><img class="header__itemImg" src="assets/github.svg" /><p class="header__item--hidden">Github</p></a></li>
+                <li class="header__item" aria-label="Link to Linkedin"><a class="header__link" href="https://www.linkedin.com/in/deric-parra/" target="_blank"><img class="header__itemImg" src="assets/linkedin.svg" /><p class="header__item--hidden">Linkedin</p></a></li>
+                <li class="header__item" aria-label="Link to Codepen"><a class="header__link" href="https://codepen.io/DericRangel013" target="_blank"><img class="header__itemImg" src="assets/codepen.svg" /><p class="header__item--hidden">Codepen</p></a></li>
+                <li class="header__item" aria-label="Link to WhatsApp"><a class="header__link" href="https://api.whatsapp.com/send?phone=5514997618477" target="_blank"><img class="header__itemImg" src="assets/wpp.svg" /><p class="header__item--hidden" id="bold" >Vamos conversar?</p></a> </li> 
             </ul>
         </header>
+        <section class="hero">
+            <div class="hero__titleBox">
+                <div class="hero__titleAndSubtitle">
+                    <h1 class="hero__titleText">Deric Parra</h1>
+                    <h2 class="hero__subtitleText">frontend</h2>
+                </div>
+                <img class="hero__titleImg" src="assets/esfera.gif" aria-label="gif"/>
+            </div>
+            <div class="hero__description">
+                <p class="hero__descriptionText">Estudo desenvolvimento front end, tenho ótimas noções de HTML, CSS e JS e atualmente tenho focado meus estudos em React e seu ecossistema</p>
+                <a class="hero__descriptionLink" href="https://github.com/dericparra" aria-label="Link to Recent Projects" target="_blank">― Veja meus projetos recentes</a>
+            </div>
+            <div class="hero__img" aria-label="Image of a Notebook"></div> 
+        </section>
     </main>
 </body>
 </html>
