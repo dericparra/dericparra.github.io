@@ -178,7 +178,7 @@ article {
     font-size: 48px;
     font-weight: bold;
     padding: 0 20px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
 }
 
 .articleLink {
@@ -197,5 +197,21 @@ article {
         max-width: 400px;
         line-height: 45px;
         padding: 0;
+        margin-bottom: 20px;
     }
+}
+
+/* Estilização da area de repositorios*/
+
+.repositories {
+    margin-top: 60px;
+}
+
+.repositories:before {
+    content: '';
+    border-top: solid 3px;
+    border-image:   linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
+    width: 100%;
+    position: absolute;
+    right: 0;
 }
