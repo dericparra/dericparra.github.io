@@ -209,6 +209,7 @@ article {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+    margin-bottom: 115px;
 }
 
 .repositories:before {
@@ -243,6 +244,9 @@ article {
 }
 
 @media screen and (min-width: 767px) {
+    .repositories{
+        margin-bottom: 160px;
+    }
     .repositories__title{
         padding: 0;
     }
@@ -264,5 +268,132 @@ article {
         text-decoration: underline;
         font-size: 18px;
         line-height: 27px;
+    }
+}
+
+/* Estilização do footer */
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #000 ;
+}
+
+.footer__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+    padding: 60px 20px 10px;
+    color: #FFFFFF;
+}
+
+.footer__wppCta {
+    padding: 0 20px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #777;
+}
+
+.footer__wppImg {
+    width: auto;
+    margin-right: 5px;
+}
+
+.footer__socialList {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer__socialItem {
+    display: inline;
+    flex-direction: row;
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.footer__socialImg {
+    margin-right: 2px;
+}
+
+.footer__socialLink {
+    color: #fff;
+}
+
+.footer__contactBox {
+    align-self: flex-start;
+    padding: 0 20px;
+    margin-top: 60px;
+}
+
+.footer__contactEmail {
+    font-size: 14px;
+    line-height: 21px;
+    color: #777777;
+}
+.footer__contactPhone {
+    font-size: 14px;
+    line-height: 21px;
+    color: #777777;
+}
+
+.footer__email {
+    margin-bottom: 20px;
+}
+
+.footer__phone{
+    margin-bottom: 60px;
+}
+
+.footer__contactImg {
+    margin-right: 2px;
+}
+
+.footer_contactLink {
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}
+
+@media screen and (min-width: 767px) {
+    footer {
+        justify-content: center;
+        padding-bottom: 70px;
+    }
+
+    .footer__container {
+        width: 100%;
+        flex-direction: row;
+        max-width: 680px;
+        justify-content: space-between ;
+    }
+
+    .footer__title {
+        padding: 0;
+    }
+
+    .footer__wppCta {
+        padding: 0;
+    }
+
+    .footer__socialList {
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .footer__socialItem {
+        margin-right: 20px;
+
     }
 }
