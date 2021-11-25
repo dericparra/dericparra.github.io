@@ -174,14 +174,14 @@ article {
     flex-direction: column;
 }
 
-.articleTitle {
+.article__title {
     font-size: 48px;
     font-weight: bold;
     padding: 0 20px;
     margin-bottom: 30px; 
 }
 
-.articleLink {
+.article__link {
     font-size: 29px;
     text-decoration: underline;
     padding: 0 20px;
@@ -189,10 +189,10 @@ article {
 }
 
 @media screen and (min-width: 767px) {
-    .articleTitle{
+    .article__title{
         padding: 0;
     }
-    .articleLink {
+    .article__link {
         font-size: 30px;
         max-width: 400px;
         line-height: 45px;
@@ -204,14 +204,65 @@ article {
 /* Estilização da area de repositorios*/
 
 .repositories {
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
     margin-top: 60px;
 }
 
 .repositories:before {
     content: '';
     border-top: solid 3px;
-    border-image:   linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
+    border-image:   linear-gradient(to right, #E9AE16 25%, #2AAB6D 25%, #2AAB6D 50%,#424A93 50%, #424A93 75%, #4E1E1E 75%) 5;
     width: 100%;
     position: absolute;
     right: 0;
+}
+
+
+.repositories__title {
+    padding: 0 20px;
+    margin: 60px 0;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;    
+}
+
+.repositories__items {
+    display: flex;
+    border-left: 2px solid black;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 0 30px 20px;
+    padding: 0 20px;
+}
+
+.repositories__cta {
+    display: none;
+}
+
+@media screen and (min-width: 767px) {
+    .repositories__title{
+        padding: 0;
+    }
+
+    .repositories__items {
+        align-items: center;
+        margin-left: 0;
+        font-size: 30px;
+        line-height: 45px;
+        justify-content: space-between;
+    }
+
+    .repositories__link{
+        max-width: 470px;
+    }
+
+    .repositories__cta {
+        display: inline;
+        text-decoration: underline;
+        font-size: 18px;
+        line-height: 27px;
+    }
 }
