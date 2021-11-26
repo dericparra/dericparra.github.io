@@ -1,0 +1,399 @@
+/* Estilos Globais */
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #000; 
+    text-decoration: none;
+}
+
+/* Container principal*/
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Estilização do Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 680px;
+    padding: 20px;
+}
+
+.header__avatar {
+    width: 54px;
+    height: 54px;
+    border-radius: 180px;
+}
+
+.header__menu {
+    display: flex;
+    width: auto;
+}
+
+.header__item {
+    width: auto;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0 10px; 
+
+}
+
+.header__itemImg  {
+    width: auto;
+    margin-right: 5px;
+}
+
+.header__item--hidden {
+    display: none;
+}
+
+#bold {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+
+    .header__item:nth-child(4) {
+        margin-left: 40px;
+    }
+
+    .header__link {
+        display: flex;
+    }
+
+    .header__item--hidden {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* Estilização do hero */
+
+.hero {
+    width: 100%;
+    max-width: 680px;
+}
+
+.hero__titleBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.hero__titleText {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.hero__subtitleText{
+    font-size: 32px;
+}
+
+.hero__titleImg {
+    width: 80px;
+    height: 80px;
+}
+
+.hero__description {
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.hero__descriptionText {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    
+}
+
+.hero__descriptionLink {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 60px;
+}
+
+.hero__img {
+    border: solid 1px black;
+    width: 100%;
+    height: 186px;
+    margin-top: 60px;
+    background-image: url("./assets/heroImg.png");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 767px) {
+    .hero__titleBox {
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .hero__titleText {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .hero__subtitleText {
+        font-size: 50px;
+    }
+
+    .hero__titleImg {
+        width: 155px;
+        height: 155px;
+    }
+
+    .hero__description {
+        padding: 0;
+    }
+
+    .hero__descriptionText {
+        font-size: 18px;
+        line-height: 27px;
+        max-width: 495px;
+    }
+
+    .hero__descriptionLink {
+        font-size: 18px;
+    }
+}
+/* Estilização do article */
+
+article {
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article__title {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 0 20px;
+    margin-bottom: 30px; 
+}
+
+.article__link {
+    font-size: 29px;
+    text-decoration: underline;
+    padding: 0 20px;
+    line-height: 43px;
+}
+
+@media screen and (min-width: 767px) {
+    .article__title{
+        padding: 0;
+    }
+    .article__link {
+        font-size: 30px;
+        max-width: 400px;
+        line-height: 45px;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilização da area de repositorios*/
+
+.repositories {
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 115px;
+}
+
+.repositories:before {
+    content: '';
+    border-top: solid 3px;
+    border-image:   linear-gradient(to right, #E9AE16 25%, #2AAB6D 25%, #2AAB6D 50%,#424A93 50%, #424A93 75%, #4E1E1E 75%) 5;
+    width: 100%;
+    position: absolute;
+    right: 0;
+}
+
+
+.repositories__title {
+    padding: 0 20px;
+    margin: 60px 0;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;    
+}
+
+.repositories__items {
+    display: flex;
+    border-left: 2px solid black;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0 0 30px 20px;
+    padding: 0 20px;
+}
+
+.repositories__cta {
+    display: none;
+}
+
+@media screen and (min-width: 767px) {
+    .repositories{
+        margin-bottom: 160px;
+    }
+    .repositories__title{
+        padding: 0;
+    }
+
+    .repositories__items {
+        align-items: center;
+        margin-left: 0;
+        font-size: 30px;
+        line-height: 45px;
+        justify-content: space-between;
+    }
+
+    .repositories__link{
+        max-width: 470px;
+    }
+
+    .repositories__cta {
+        display: inline;
+        text-decoration: underline;
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+
+/* Estilização do footer */
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #000 ;
+}
+
+.footer__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+    padding: 60px 20px 10px;
+    color: #FFFFFF;
+}
+
+.footer__wppCta {
+    padding: 0 20px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #777;
+}
+
+.footer__wppImg {
+    width: auto;
+    margin-right: 5px;
+}
+
+.footer__socialList {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer__socialItem {
+    display: inline;
+    flex-direction: row;
+    color: #fff;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.footer__socialImg {
+    margin-right: 2px;
+}
+
+.footer__socialLink {
+    color: #fff;
+}
+
+.footer__contactBox {
+    align-self: flex-start;
+    padding: 0 20px;
+    margin-top: 60px;
+}
+
+.footer__contactEmail {
+    font-size: 14px;
+    line-height: 21px;
+    color: #777777;
+}
+.footer__contactPhone {
+    font-size: 14px;
+    line-height: 21px;
+    color: #777777;
+}
+
+.footer__email {
+    margin-bottom: 20px;
+}
+
+.footer__phone{
+    margin-bottom: 60px;
+}
+
+.footer__contactImg {
+    margin-right: 2px;
+}
+
+.footer_contactLink {
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}
+
+@media screen and (min-width: 767px) {
+    footer {
+        justify-content: center;
+        padding-bottom: 70px;
+    }
+
+    .footer__container {
+        width: 100%;
+        flex-direction: row;
+        max-width: 680px;
+        justify-content: space-between ;
+    }
+
+    .footer__title {
+        padding: 0;
+    }
+
+    .footer__wppCta {
+        padding: 0;
+    }
+
+    .footer__socialList {
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .footer__socialItem {
+        margin-right: 20px;
+
+    }
+}

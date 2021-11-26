@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Deric Parra | WebDev</title> 
+</head>
+<body>
+    <main>
+        <header>
+            <img class="header__avatar" src="assets/avatar.jpg" aria-label="Avatar"/>
+            <ul class="header__menu">
+                <li class="header__item" aria-label="Link to Github"><a class="header__link" href="https://github.com/dericparra" target="_blank"><img class="header__itemImg" src="assets/github.svg" /><p class="header__item--hidden">Github</p></a></li>
+                <li class="header__item" aria-label="Link to Linkedin"><a class="header__link" href="https://www.linkedin.com/in/deric-parra/" target="_blank"><img class="header__itemImg" src="assets/linkedin.svg" /><p class="header__item--hidden">Linkedin</p></a></li>
+                <li class="header__item" aria-label="Link to Codepen"><a class="header__link" href="https://codepen.io/DericRangel013" target="_blank"><img class="header__itemImg" src="assets/codepen.svg" /><p class="header__item--hidden">Codepen</p></a></li>
+                <li class="header__item" aria-label="Link to WhatsApp"><a class="header__link" href="https://api.whatsapp.com/send?phone=5514997618477" target="_blank"><img class="header__itemImg" src="assets/wpp.svg" /><p class="header__item--hidden" id="bold" >Vamos conversar?</p></a> </li> 
+            </ul>
+        </header>
+        <section class="hero">
+            <div class="hero__titleBox">
+                <div class="hero__titleAndSubtitle">
+                    <h1 class="hero__titleText">Deric Parra</h1>
+                    <h2 class="hero__subtitleText">frontend</h2>
+                </div>
+                <img class="hero__titleImg" src="assets/esfera.gif" aria-label="gif"/>
+            </div>
+            <div class="hero__description">
+                <p class="hero__descriptionText">Estudo desenvolvimento front end, tenho ótimas noções de HTML, CSS e JS e atualmente tenho focado meus estudos em React e seu ecossistema</p>
+                <a class="hero__descriptionLink" href="https://github.com/dericparra" aria-label="Link to Recent Projects" target="_blank">― Veja meus projetos recentes</a>
+            </div>
+            <div class="hero__img" aria-label="Image of a Notebook"></div> 
+        </section>
+        <article class="article__area ">
+            <p class="article__title">Artigos recentes</p>
+            <a class="article__link" href="https://dev.to/deko/como-transformar-seu-react-app-em-um-pwa-em-poucos-minutos-59o7" target="_blank">Como transformar seu React APP em um PWA em poucos minutos</a>
+        </article>
+        <section class="repositories">
+            <p class="repositories__title">Principais repositórios</p>
+            <ul class="repositories__list">
+                <li class="repositories__items"><a class="repositories__link" href="https://github.com/dericparra/my-first-API" target="_blank">My first API: My very first own
+                    API made with NodeJs  </a><a class="repositories__cta" href="https://github.com/dericparra/my-first-API" target="_blank">Ver repositorio</a></li>
+                <li class="repositories__items"><a class="repositories__link" href="https://github.com/dericparra/climate-news" target="_blank">Climate news: climate news app, consuming My first API </a><a class="repositories__cta" href="https://github.com/dericparra/climate-news" target="_blank">Ver repositorio</a></li>
+                <li class="repositories__items"><a class="repositories__link" href="https://github.com/dericparra/web-scraper" target="_blank">Web scraper: Web Scraper
+                    feito com NodeJs </a><a class="repositories__cta" href="https://github.com/dericparra/web-scraper" target="_blank">Ver repositorio</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section class="footer__container">
+            <div class="footer__socialsBox">
+                <p class="footer__title">Vamos trabalhar juntos</p>
+                <a class="footer__wppCta" href="https://api.whatsapp.com/send?phone=5514997618477" target="_blank"><img class="footer__wppImg" src="assets/wppFooter.svg"/>Me chame aqui!</a>
+                <ul class="footer__socialList">
+                    <li class="footer__socialItem" aria-label="Link to Github"><a href="https://github.com/dericparra" target="_blank"><img class="footer__socialImg" src="/assets/githubFooter.svg"/><p class="footer__socialItem">Github</p></a></li>
+                    <li class="footer__socialItem" aria-label="Link to Linkedin"><a href="https://www.linkedin.com/in/deric-parra/" target="_blank"><img class="footer__socialImg" src="/assets/linkedinFooter.svg"/><p class="footer__socialItem">Linkedin</p></a></li>
+                    <li class="footer__socialItem" aria-label="Link to Codepen"><a href="https://codepen.io/DericRangel013" target="_blank"><img class="footer__socialImg" src="/assets/codepenFooter.svg"/><p class="footer__socialItem">Codepen</p></a></li>
+                </ul>
+            </div>
+            <div class="footer__contactBox">
+                <div class="footer__email">
+                    <p class="footer__contactEmail"><img class="footer__contactImg" src="assets/email.svg"/>E-mail</p>
+                    <a class="footer_contactLink" href="mailto:parradeko@gmail.com">parradeko@gmail.com</a>
+                </div>
+                <div class="footer__phone">
+                    <p class="footer__contactPhone"><img class="footer__contactImg" src="assets/phone.svg"/>Fone</p>
+                    <a class="footer_contactLink" href="tel:+55014997618477">14 997618477</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
