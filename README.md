@@ -11,7 +11,6 @@ HTML and CSS only
 
 
 ### Author
----
 
 <a href="https://www.linkedin.com/in/deric-parra/">
  <img src="https://avatars.githubusercontent.com/u/47975655?v=4" width="100px;" alt=""/>
