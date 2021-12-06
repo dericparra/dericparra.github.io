@@ -24,6 +24,7 @@ header {
     top: 0;
     background-color: rgba(255, 255, 255, 0.7);
     z-index: 1;
+    /* margin-top: -20px ; */
 }
 
 .header__avatar {
@@ -61,7 +62,7 @@ header {
 @media screen and (min-width: 768px) {
     header {
         padding: 20px 0;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }
 
     .header__item:nth-child(4) {
