@@ -24,7 +24,7 @@ header {
     top: 0;
     background-color: rgba(255, 255, 255, 0.7);
     z-index: 1;
-    /* margin-top: -20px ; */
+    
 }
 
 .header__avatar {
@@ -62,7 +62,6 @@ header {
 @media screen and (min-width: 768px) {
     header {
         padding: 20px 0;
-        /* margin-top: 20px; */
     }
 
     .header__item:nth-child(4) {
@@ -408,60 +407,57 @@ footer {
 
 /* Animations */
 
-@media screen and (min-width: 767px){
-    .header__avatar:hover {
-        transform: scale(2);
-    }
-    
-    .header__item {
-        display: inline-block;
-        position: relative;
-        text-decoration: none;
-        padding: 10px 0;
-        color: black;
-    }
-    
-    .header__link:hover::after {
-        transform-origin: bottom left;
-        transform: scaleX(1);
-    }
-    
-    .header__link::after {
-        content:'';
-        position: absolute;
-        width: 100%;
-        height: 3px;
-        bottom: 0;
-        left: 0;
-        background-color: black;
-        transform: scaleX(0);
-        transform-origin: bottom right;
-        transition: transform 0.3s;
-    }
+.header__avatar:hover {
+    transform: scale(2);
 }
 
+.header__item {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    padding: 10px 0;
+    color: black;
+}
+
+.header__link:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+.header__link::after {
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.1s;
+}
 .header__item:nth-child(1) {
     opacity: 0;
-    animation: appel .3s forwards; 
+    animation: appel .1s forwards; 
 }
 
 
 .header__item:nth-child(2){
     opacity: 0;
-    animation: appel .3s forwards; 
-    animation-delay: .3s;
+    animation: appel .1s forwards; 
+    animation-delay: .2s;
 }
 
 .header__item:nth-child(3){
     opacity: 0;
-    animation: appel .3s forwards; 
-    animation-delay: .6s;
+    animation: appel .2s forwards; 
+    animation-delay: .5s;
 }
 
 .header__item:nth-child(4){
     opacity: 0;
-    animation: appel .3s forwards; 
-    animation-delay: 1s;
+    animation: appel .1s forwards; 
+    animation-delay: 0.9s;
 }
 
 @keyframes appel {
@@ -477,43 +473,43 @@ footer {
 
 .hero {
     opacity: 0;
-    animation: reveal .3s forwards;
+    animation: reveal .1s forwards;
 }
 
 .hero__titleText {
     opacity: 0;
-    animation: reveal .3s forwards;
-    animation-delay: 1.3s;
+    animation: reveal .1s forwards;
+    animation-delay: .2s;
 }
 
 .hero__subtitleText {
     opacity: 0;
-    animation: reveal .3s forwards;
-    animation-delay: 1.6s;
+    animation: reveal .1s forwards;
+    animation-delay: .5s;
 }
 
 .hero__titleImg {
     opacity: 0;
-    animation: reveal .3s forwards;
-    animation-delay: 2s;
+    animation: reveal .1s forwards;
+    animation-delay: .9s;
 }
 
 .hero__descriptionText{
     opacity: 0;
-    animation: reveal .3s forwards;
-    animation-delay: 2.3s;
+    animation: reveal .1s forwards;
+    animation-delay: 1.2s;
 }
 
 .hero__descriptionLink {
     opacity: 0;
-    animation: reveal .3s forwards;
-    animation-delay: 2.6s;
+    animation: reveal .1s forwards;
+    animation-delay: 1.5s;
 }
 
 .hero__img {
     opacity: 0;
-    animation: reveal .3s forwards;
-    animation-delay: 3s;
+    animation: reveal .4s forwards;
+    animation-delay: 1.9s;
 }
 
 @keyframes reveal {
