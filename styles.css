@@ -20,6 +20,10 @@ header {
     width: 100%;
     max-width: 680px;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
 }
 
 .header__avatar {
@@ -79,6 +83,7 @@ header {
 .hero {
     width: 100%;
     max-width: 680px;
+    margin-top: 100px;
 }
 
 .hero__titleBox {
