@@ -402,6 +402,69 @@ footer {
 
 /* Animations */
 
-.header__avatar:hover {
-    transform: scale(2);
+@media screen and (min-width: 767px){
+    .header__avatar:hover {
+        transform: scale(2);
+    }
+    
+    .header__item {
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        padding: 10px 0;
+        color: black;
+    }
+    
+    .header__link:hover::after {
+        transform-origin: bottom left;
+        transform: scaleX(1);
+    }
+    
+    .header__link::after {
+        content:'';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.3s;
+    }
+}
+
+.header__item:nth-child(1) {
+    opacity: 0;
+    animation: appel .3s forwards; 
+}
+
+
+.header__item:nth-child(2){
+    opacity: 0;
+    animation: appel .3s forwards; 
+    animation-delay: .3s;
+}
+
+.header__item:nth-child(3){
+    opacity: 0;
+    animation: appel .3s forwards; 
+    animation-delay: .6s;
+}
+
+.header__item:nth-child(4){
+    opacity: 0;
+    animation: appel .3s forwards; 
+    animation-delay: 1s;
+}
+
+@keyframes appel {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
