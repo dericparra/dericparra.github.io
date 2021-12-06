@@ -468,3 +468,55 @@ footer {
         transform: translateY(0);
     }
 }
+
+.hero {
+    opacity: 0;
+    animation: reveal .3s forwards;
+}
+
+.hero__titleText {
+    opacity: 0;
+    animation: reveal .3s forwards;
+    animation-delay: 1.3s;
+}
+
+.hero__subtitleText {
+    opacity: 0;
+    animation: reveal .3s forwards;
+    animation-delay: 1.6s;
+}
+
+.hero__titleImg {
+    opacity: 0;
+    animation: reveal .3s forwards;
+    animation-delay: 2s;
+}
+
+.hero__descriptionText{
+    opacity: 0;
+    animation: reveal .3s forwards;
+    animation-delay: 2.3s;
+}
+
+.hero__descriptionLink {
+    opacity: 0;
+    animation: reveal .3s forwards;
+    animation-delay: 2.6s;
+}
+
+.hero__img {
+    opacity: 0;
+    animation: reveal .3s forwards;
+    animation-delay: 3s;
+}
+
+@keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
